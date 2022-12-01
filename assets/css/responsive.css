@@ -1,0 +1,1738 @@
+/*
+    Theme Name: Ticketly
+    Author: DoorSoft
+    Support: Azhar Raihan
+    Description: Ticketly Website
+    Version: 1.0
+*/
+
+
+/*  Extra Large Device: 192000px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 1700px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 1320px;
+    }
+}
+
+
+
+/*  Large PC: 1200px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 1200px) and (max-width: 1699.98px) {
+  /* Common CSS */
+  .common-section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  .common-section-pt{
+    padding-top: 75px;
+  }
+  .common-section-pb{
+    padding-bottom: 75px;
+  }
+  /* Main Header */
+  .main-header nav {
+    height: 90px;
+  }
+  .open-ticket a {
+    padding: 10px 20px;
+  }
+  /* Banner */
+  #banner-wrap {
+    height: 70vh;
+    align-items: center;
+  }
+  .banner-content {
+    padding-top: 0px;
+  }
+  .banner-content h4 {
+    padding: 30px 0px;
+  }
+  /* Article & Documentation */
+  .documentation {
+    padding-bottom: 75px;
+  }
+  .article {
+    padding-top: 60px;
+  }
+  /* Frequently Ask & Question */
+  .frequently-ask {
+    background-color: #E0E7F5;
+    padding-top: 75px;
+    padding-bottom: 50px;
+  }
+  /* Support Policy */
+  #support-policy {
+    margin-top: 75px;
+  }
+  /* Blog & News */
+  .blog-title {
+    padding: 30px 0px;
+  }
+  .blog-and-news {
+    padding-bottom: 75px;
+  }
+  /* Footer */
+  footer {
+    padding: 75px 0;
+  }
+
+
+  /* ******* Pages CSS Start *******/
+  /* Common Pages CSS */
+  #common-page-banner {
+    height: 465px;
+    background-size: cover;
+    margin-top: -90px;
+  }
+  #common-page-banner h2 {
+    font-size: 42px;
+    font-weight: 700;
+  }
+  #common-page-banner .breadcrumb-wrap {
+    padding-top: 65px;
+  }
+
+  /* Blog Details Page */
+  .blog-pagination{
+    padding-top: 60px;
+  }
+
+  /* Article Details Page */
+  .article-page-wrap .system-requirment {
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+  .element-customer-report {
+    margin-top: 60px;
+  }
+  .KbDOc-Version-wrap {
+    padding-top: 60px;
+  }
+
+
+
+
+
+
+
+
+
+}
+
+/*  Tablet PC: 992px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* Common CSS */
+  .common-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .common-section-pt{
+    padding-top: 60px;
+  }
+  .common-section-pb{
+    padding-bottom: 60px;
+  }
+  .section-title h1 {
+    font-size: 45px;
+    padding-bottom: 35px;
+    margin-bottom: 60px;
+  }
+  /* Main Navbar */
+  .open-ticket a {
+    padding: 15px 15px;
+  }
+  .nav_bar > li > a {
+    margin: 0px 0px;
+    font-size: 15px;
+    padding: 15px 12px;
+  }
+  .open-ticket a {
+    padding: 10px 10px;
+  }
+  .main-header .logo img{
+    height: 35px;
+  }
+  .main-header nav {
+    height: 80px;
+  }
+  .nav_bar > li.withsubs > a > span {
+    right: -2px;
+  }
+  /* Banner */
+  #banner-wrap {
+    height: 550px;
+    align-items: center;
+  }
+  .banner-content {
+    padding-top: 0px;
+  }
+  .banner-content h1 {
+    font-size: 50px;
+  }
+  .banner-content h4 {
+    padding: 20px 0px;
+  }
+  .search_suggest {
+    left: 124px;
+    width: 500px;
+  }
+  .search {
+    width: 500px;
+  }
+  /* Article & Documentation */
+  .article {
+    padding-top: 60px;
+  }
+  .documentation {
+    padding-bottom: 60px;
+  }
+  /* Frequently Ask & Question */
+  .frequently-ask {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  #support-policy {
+    margin-top: 60px;
+  }
+  /* Blog  */
+  .blog-title {
+    padding: 50px 0px 20px 0px;
+  }
+  .blog-title h1 {
+    font-size: 45px;
+  }
+  .blog-and-news {
+    padding-bottom: 60px;
+  }
+  /* Find Answer */
+  .find-answer-image {
+    margin-right: 30px !important;
+  }
+  .find-answer h3{
+    font-size: 40px;
+  }
+  /* Footer */
+  footer {
+    padding: 60px 0;
+  }
+
+  /* ******* Pages CSS Start *******/
+
+  /* Common Pages CSS */
+  #common-page-banner {
+    height: 375px;
+    background-size: cover;
+    margin-top: -80px;
+  }
+  #common-page-banner h2 {
+    font-size: 36px;
+  }
+
+  /* Blog Page */
+  .blog-pagination{
+    padding-top: 60px;
+  }
+
+  /* Contact Page CSS */
+  .contact-wrap .c-form-group {
+    padding-bottom: 42px;
+  }
+  .contact-wrap .message-box textarea {
+    height: 100px;
+  }
+  .contact-wrap .send-message {
+    margin-top: 20px;
+  }
+
+  /* Blog Details Page */
+  .blog-details-header h1{
+    font-size: 37px;
+  } 
+  .blog-details-header {
+    padding-bottom: 30px;
+  }
+  .blog-details-banner img {
+    height: 510px;
+  }
+  .comment-trigger .comment-header h2 {
+    font-size: 30px;
+    padding: 30px 0px 25px 0px;
+  }
+  .comment-trigger .post-comment-header h2 {
+    font-size: 30px;
+  }
+  .comment-trigger .comment-parent {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .search-blog-wrap, .documentation-search-wrap {
+    padding: 20px;
+  }
+  .search-blog-category {
+    padding: 20px 0px 20px 20px;
+    margin-top: 20px;
+  }
+  .search-blog-wrap .btn-sarch, .documentation-search-wrap .btn-sarch {
+    width: 60px;
+  }
+  .follow-us-wrap {
+    padding: 30px;
+    margin-top: 20px;
+  }
+  /* Article Page */
+  .article-page-wrap .documentation-head h2 {
+    font-size: 32px;
+  }
+  .article-page-wrap{
+    grid-template-columns: 40% 55%;
+    grid-gap: 5%;
+  }
+  /* Article Details Page */
+  .article-page-wrap .system-requirment {
+    display: grid;
+    grid-template-columns: 80% 20%;
+  }
+  .article-details-wrap .normal-tab h2, .KbDOc-Version-wrap .KbDOc-header h2{
+    font-size: 32px;
+  }
+  .element-customer-report {
+    margin-top: 60px;
+  }
+  .KbDOc-Version-wrap {
+    padding-top: 60px;
+  }
+}
+/*  Tablet Mobile: 768px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* Mobile Menu */
+  .mobile_menu_2 {
+    width: 320px;
+  }
+  /* Tablet Site Common Css */
+  .common-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .common-section-pt{
+    padding-top: 60px;
+  }
+  .common-section-pb{
+    padding-bottom: 60px;
+  }
+  .section-title h1 {
+    font-size: 40px;
+    padding-bottom: 30px;
+    position: relative;
+    margin-bottom: 55px;
+  }
+  .mobile-mb-20{
+    margin-bottom: 20px;
+  }
+  /* Tablet Top Header */
+  .top_heaeder {
+    height: 47px;
+  }
+  .phone::before {
+    top: 1px;
+  }
+  /* Tablet Navbar */
+  .main-header .nav_bar{
+    display: none;
+  }
+  .main-header nav {
+    height: 70px;
+  }
+  .open-ticket a {
+    padding: 10px 16px;
+  }
+
+  /* Tablet Banner */
+  #banner-wrap {
+    align-items: center;
+    height: 50vh;
+  }
+  .banner-content h1 {
+    font-size: 35px;
+  }
+  .banner-content {
+    padding-top: 0px;
+  }
+  .banner-content h4 {
+    font-size: 20px;
+    padding: 15px 0px;
+  }
+  .search {
+    width: 526px;
+  }
+  .search_category {
+    width: 150px;
+    padding-right: 15px;
+  }
+  .search_suggest {
+    left: 0px;
+    width: 527px;
+  }
+
+  /* Tablet Documentation & Article */
+  .documentation {
+    padding-bottom: 60px;
+  }
+  .article {
+    padding-top: 50px;
+  }
+
+  /* Tablet Frequently Ask & Question */
+  .frequently-ask {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+
+  /* Tablet Support & Policy */
+  #support-policy {
+    margin-top: 60px;
+  }
+  /* Tablet Blog & News */
+  .blog-title {
+    padding: 40px 0px;
+  }
+  .blog-title h1 {
+    font-size: 40px;
+  }
+  .blog-and-news {
+    padding-bottom: 60px;
+  }
+
+  /* Tablet Coul Not Find Answer */
+  .find-answer {
+    height: 200px;
+  }
+  .find-answer h3{
+    font-size: 35px;
+  }
+
+  /* Tablet Footer */
+  footer {
+    padding: 60px 0;
+  }
+
+  /* ******* Pages CSS Start *******/
+
+  /* Common Pages CSS */
+  #common-page-banner {
+    height: 350px;
+    margin-top: -70px;
+  }
+  #common-page-banner h2 {
+    font-size: 32px;
+  }
+  /* Blog Page */
+  .blog-pagination{
+    padding-top: 50px;
+  }
+  /* Contact Page CSS */
+  .contact-wrap {
+    grid-template-columns: 100%;
+  }
+  .contact-wrap .send-message {
+    padding: 15px 0px;
+    margin-top: 25px;
+  }
+  .contact-wrap .contact-image{
+    display: none;
+  }
+  /* Blog Details Page */
+  .blog-details-header h1{
+    font-size: 30px;
+  } 
+  .blog-details-header {
+    padding-bottom: 25px;
+  }
+  .blog-details-banner img {
+    height: 470px;
+  }
+  .comment-trigger .comment-header h2 {
+    font-size: 25px;
+    padding: 25px 0px 20px 0px;
+  }
+  .comment-trigger .post-comment-header h2 {
+    font-size: 25px;
+  }
+  .comment-trigger .comment-parent {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .search-blog-wrap, .documentation-search-wrap {
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .search-blog-category {
+    padding: 20px 0px 20px 20px;
+    margin-top: 20px;
+  }
+  .search-blog-wrap .btn-sarch, .documentation-search-wrap .btn-sarch {
+    width: 70px;
+  }
+  .follow-us-wrap {
+    padding: 25px;
+    margin-top: 20px;
+  }
+  /* Article Page */
+  .article-page-wrap{
+    grid-template-columns: 40% 55%;
+    grid-gap: 5%;
+  }
+  .article-page-wrap .documentation-head h2 {
+    font-size: 28px;
+  }
+  .article-page-wrap .article-page-inner .documentation-search-wrap{
+    margin-top: 0px;
+  }
+  .article-page-wrap .documentation-head {
+    padding-bottom: 20px;
+  }
+  .article-page-wrap .article-sidebar-wrap {
+    padding: 25px;
+  }
+  .article-page-wrap .content-wrap .estimated-reading {
+    margin-bottom: 20px;
+  }
+  .article-page-wrap .content-wrap .elementor {
+    padding-bottom: 40px;
+  }
+  /* Article Details Page */
+  .article-page-wrap .system-requirment {
+    display: flex;
+  }
+  .article-details-wrap .normal-tab h2, .KbDOc-Version-wrap .KbDOc-header h2{
+    font-size: 28px;
+  }
+  .element-customer-report {
+    margin-top: 50px;
+  }
+  .KbDOc-Version-wrap {
+    padding-top: 50px;
+  }
+}
+
+/*  Mobile : 576px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  /* Mobile Menu */
+  .mobile_menu_2 {
+    width: 320px;
+  }
+  /* Tablet Site Common Css */
+  .common-section {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .common-section-pt{
+    padding-top: 35px;
+  }
+  .common-section-pb{
+    padding-bottom: 35px;
+  }
+  .section-title h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 35px;
+  }
+  .mobile-mb-20{
+    margin-bottom: 20px;
+  }
+  /* Tablet Top Header */
+  .top_heaeder {
+    height: 47px;
+  }
+  .top_heaeder .nice-select {
+    font-size: 14px;
+  }
+  .top_heaeder .login-register a {
+    font-size: 14px;
+  }
+  .tophead_contact .phone span{
+    font-size: 14px;
+  }
+  .tophead_contact a {
+    font-size: 14px;
+  }
+  .top_heaeder .login-register span {
+    font-size: 14px !important;
+  }
+  .phone::before {
+    top: 1px;
+  }
+  .tophead_contact .phone {
+    margin-right: 10px;
+  }
+  .phone::before {
+    top: 2px;
+    right: -5px;
+    height: 12px;
+  }
+  .tophead_items .nice-select {
+    padding-right: 25px;
+  }
+  .language-icon .ms-3{
+    margin-right: 3px !important;
+  }
+  .login-register .icon::before {
+    top: 8px;
+    left: -11px;
+    height: 13px;
+  }
+  .top_heaeder .nice-select .list {
+    left: -20px;
+    top: 100%;
+  }
+  .tophead_contact .contact{
+    display: none;
+  }
+  .phone::before {
+    content: none;
+  }
+  /* Tablet Navbar */
+  .main-header .nav_bar{
+    display: none;
+  }
+  .main-header nav {
+    height: 60px;
+  }
+  .open-ticket a {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  /* Tablet Banner */
+  #banner-wrap {
+    align-items: center;
+    height: 45vh;
+  }
+  .banner-content h1 {
+    font-size: 30px;
+  }
+  .banner-content {
+    padding-top: 0px;
+  }
+  .banner-content h4 {
+    font-size: 16px;
+    padding: 10px 0px;
+  }
+  .search {
+    width: 400px;
+  }
+  .search_category {
+    width: 150px;
+    padding-right: 15px;
+    height: 40px;
+  }
+  .search_category .nice-select {
+    height: 40px;
+  }
+  .search_subimt button {
+    height: 40px;
+  }
+  .search_suggest {
+    left: 24px;
+    width: 400px;
+    top: 42px;
+  }
+  .search_input input {
+    height: 40px;
+  }
+  .search_result ul {
+    padding: 5px 15px;
+  }
+  .search_result ul li small {
+    font-size: 13px;
+  }
+  /* Tablet Documentation & Article */
+  .documentation {
+    padding-bottom: 35px;
+  }
+  .article {
+    padding-top: 35px;
+  }
+  .fafc-card-wrap .content-fafc h4 {
+    font-size: 20px;
+  }
+  .fafc-card-wrap {
+    padding: 20px 20px;
+  }
+  /* Tablet Frequently Ask & Question */
+  .frequently-ask {
+    padding-top: 35px;
+    padding-bottom: 10px;
+  }
+  .frequently-ask .accordion-button {
+    font-size: 17px;
+  }
+
+  /* Tablet Support & Policy */
+  #support-policy {
+    margin-top: 35px;
+    background-position: inherit;
+  }
+  /* Tablet Blog & News */
+  .blog-title {
+    padding: 25px 0px;
+  }
+  .blog-title h1 {
+    font-size: 30px;
+  }
+  .blog-and-news {
+    padding-bottom: 35px;
+  }
+  .blog-title a {
+    padding: 5px 17px;
+  }
+  .card-footer {
+    padding: 5px 0px;
+  }
+  .card-footer .card-footer-item{
+    font-size: 14px;
+  }
+
+  /* Tablet Coul Not Find Answer */
+  .find-answer {
+    height: auto;
+    padding: 30px 0px;
+  }
+  .find-answer h3{
+    font-size: 30px;
+  }
+  .find-answer a {
+    padding: 7px 15px;
+  }
+  .find-answer-image{
+    margin-bottom: 25px;
+  }
+  .find-answer-inner{
+    flex-direction: column;
+  }
+
+  /* Tablet Footer */
+  footer {
+    padding: 35px 0;
+  }
+
+  /* ******* Pages CSS Start *******/
+
+  /* Common Page CSS */
+  #common-page-banner {
+    height: 320px;
+    margin-top: -60px;
+  }
+  #common-page-banner h2 {
+    font-size: 30px;
+  }
+  /* Blog Page */
+  .blog-pagination{
+    padding-top: 35px;
+  }
+  /* Contact Page CSS */
+  .contact-wrap {
+    grid-template-columns: 100%;
+  }
+  .contact-wrap .send-message {
+    padding: 15px 0px;
+    margin-top: 25px;
+  }
+  .contact-wrap .contact-image{
+    display: none;
+  }
+  /* Blog Details Page */
+  .blog-details-header h1{
+    font-size: 25px;
+  } 
+  .blog-details-header {
+    padding-bottom: 20px;
+  }
+  .blog-details-banner img {
+    height: 360px;
+  }
+  .blog-details-comment-counter .comment-date {
+    margin-right: 10px;
+  }
+  .blog-details-comment-counter {
+    padding: 15px;
+  }
+  .blog-details-comment-counter span{
+    font-size: 14px
+  }
+  .blog-tag-wrap {
+    margin-top: 20px;
+  }
+  .follow-us-wrap h4 {
+    font-size: 20px;
+  }
+  .comment-trigger .comment-header h2 {
+    font-size: 22px;
+    padding: 25px 0px 20px 0px;
+  }
+  .comment-trigger .post-comment-header h2 {
+    font-size: 22px;
+  }
+  .search-blog-category h4{
+    font-size: 20px;
+  }
+  .comment-trigger .comment-parent {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .search-blog-wrap, .documentation-search-wrap {
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .search-blog-category {
+    padding: 20px 0px 20px 20px;
+    margin-top: 20px;
+  }
+  .search-blog-wrap .btn-sarch, .documentation-search-wrap .btn-sarch {
+    width: 70px;
+  }
+  .follow-us-wrap {
+    padding: 25px;
+    margin-top: 20px;
+  }
+
+  /* Article Page */
+  .article-page-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .article-page-wrap .documentation-head h2 {
+    font-size: 25px;
+  }
+  .article-page-wrap .article-page-inner .documentation-search-wrap{
+    margin-top: 0px;
+  }
+  .article-page-wrap .documentation-head {
+    padding-bottom: 20px;
+  }
+  .article-page-wrap .article-sidebar-wrap {
+    padding: 25px;
+  }
+  .article-page-wrap .content-wrap .estimated-reading {
+    margin-bottom: 20px;
+  }
+  .article-page-wrap .content-wrap .elementor {
+    padding-bottom: 40px;
+  }
+  .article-page-wrap .contact-wrap{
+    margin-bottom: 60px;
+  }
+  .article-content{
+    margin-top: 60px;
+  }
+  .article-page-wrap .content-wrap .articles h4 {
+    font-size: 20px;
+  }
+
+
+  /* Article Page Details */
+  .article-details-wrap .normal-tab h2, .KbDOc-Version-wrap .KbDOc-header h2{
+    font-size: 25px;
+  }
+  .element-customer-report {
+    margin-top: 35px;
+  }
+  .KbDOc-Version-wrap {
+    padding-top: 35px;
+  }
+}
+
+
+/*  Mobile Small Device: 450px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 450px) and (max-width: 575.98px) {
+  /* Tablet Site Common Css */
+  .common-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .common-section-pt{
+    padding-top: 30px;
+  }
+  .common-section-pb{
+    padding-bottom: 30px;
+  }
+  .section-title h1 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }
+  .mobile-mb-20{
+    margin-bottom: 20px;
+  }
+  /* Mobile Menubar */
+  .header_icon a.icon_wrp span.icon {
+    font-size: 20px;
+  }
+  .header_icon a.icon_wrp {
+    margin-left: 15px;
+    padding: 10px 0;
+  }
+  .logo img {
+    width: 120px;
+  }
+  .search_subimt {
+    width: 90px;
+  }
+  .mobile_bottombar .header_icon a.icon_wrp span.icon_text {
+    display: block;
+  }
+  /* Tablet Top Header */
+  .top_heaeder {
+    height: 43px;
+  }
+  .tophead_contact{
+    display: none;
+  }
+  .top_heaeder .nice-select {
+    font-size: 14px;
+  }
+  .top_heaeder .login-register a {
+    font-size: 12px;
+  }
+  .tophead_contact .phone span{
+    font-size: 12px;
+  }
+  .tophead_contact a {
+    font-size: 12px;
+  }
+  .top_heaeder .login-register span {
+    font-size: 14px !important;
+  }
+  .phone::before {
+    top: 1px;
+  }
+  .tophead_contact .phone {
+    margin-right: 10px;
+  }
+  .phone::before {
+    top: 2px;
+    right: -5px;
+    height: 12px;
+  }
+  .tophead_items .nice-select {
+    padding-right: 25px;
+  }
+  .language-icon .ms-3{
+    margin-right: 3px !important;
+  }
+  .login-register .icon::before {
+    top: 8px;
+    left: -8px;
+    height: 13px;
+  }
+  .top_heaeder .nice-select .list {
+    left: -20px;
+    top: 100%;
+  }
+  .topheader-inner-wrap{
+    justify-content: end;
+  }
+  /* Tablet Navbar */
+  .main-header .nav_bar{
+    display: none;
+  }
+  .main-header nav {
+    height: 60px;
+  }
+  .open-ticket a {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  .sub_categories, .mobile_menu_2, .mobile_cart_wrap {
+    width: 270px;
+  }
+  .mobile_menu_2 a {
+    font-size: 14px;
+  }
+  .mobile_search_bar {
+    padding: 20px;
+  }
+  .search_result_ticket .sresult_content h4 {
+    font-size: 14px;
+  }
+  .mobile_menu_2 .mobile_title {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+  }
+  .mobile_menu_2 .mobile_title {
+    margin-bottom: 5px;
+  }
+  /* Tablet Banner */
+  #banner-wrap {
+    align-items: center;
+    height: 60vh;
+  }
+  .banner-content h1 {
+    font-size: 25px;
+  }
+  .banner-content {
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
+  .banner-content h4 {
+    font-size: 14px;
+    padding: 10px 0px;
+  }
+  .search {
+    width: 470px;
+  }
+  .search_category {
+    width: 150px;
+    padding-right: 15px;
+    height: 40px;
+  }
+  .search_category .nice-select {
+    height: 40px;
+  }
+  .search_subimt button {
+    height: 40px;
+  }
+  .search_suggest {
+    left: 5px;
+    width: 435px;
+    top: 42px;
+  }
+  .search_input input {
+    height: 40px;
+  }
+  .search_result ul {
+    padding: 5px 15px;
+  }
+  .search_result ul li small {
+    font-size: 13px;
+  }
+  /* Tablet Documentation & Article */
+  .documentation {
+    padding-bottom: 30px;
+  }
+  .article {
+    padding-top: 30px;
+  }
+  .fafc-card-wrap .content-fafc h4 {
+    font-size: 20px;
+  }
+  .fafc-card-wrap {
+    padding: 15px 15px;
+  }
+  .search_wrap{
+    display: none;
+  }
+  /* Tablet Frequently Ask & Question */
+  .frequently-ask {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  .frequently-ask .accordion-button {
+    font-size: 16px;
+  }
+  .mobile-searchbar{
+    display: block;
+  }
+
+  /* Tablet Support & Policy */
+  #support-policy {
+    margin-top: 0px;
+    background-position: inherit;
+  }
+  /* Tablet Blog & News */
+  .blog-title {
+    padding: 25px 0px;
+  }
+  .blog-title h1 {
+    font-size: 25px;
+  }
+  .blog-and-news {
+    padding-bottom: 35px;
+  }
+  .blog-title a {
+    padding: 5px 17px;
+  }
+
+  /* Tablet Coul Not Find Answer */
+  .find-answer {
+    height: auto;
+    padding: 30px 0px;
+  }
+  .find-answer h3{
+    font-size: 25px;
+  }
+  .find-answer a {
+    padding: 7px 15px;
+  }
+  .find-answer-image{
+    margin-bottom: 25px;
+  }
+  .find-answer-inner{
+    flex-direction: column;
+  }
+  /* Tablet Footer */
+  footer {
+    padding: 30px 0;
+  }
+
+  /* ******* Pages CSS Start *******/
+
+  /* Common Page CSS */
+  #common-page-banner {
+    height: 260px;
+    margin-top: -60px;
+  }
+  #common-page-banner h2 {
+    font-size: 30px;
+  }
+  #common-page-banner .breadcrumb-wrap {
+    padding-top: 55px;
+  }
+
+  /* Blog Page */
+  .blog-pagination{
+    padding-top: 30px;
+  }
+  /* Contact Page CSS */
+  .contact-wrap {
+    grid-template-columns: 100%;
+  }
+  .contact-wrap .send-message {
+    padding: 12px 0px;
+    margin-top: 20px;
+  }
+  .contact-wrap .contact-image{
+    display: none;
+  }
+  /* Blog Details Page */
+  .blog-details-header h1{
+    font-size: 25px;
+  } 
+  .blog-details-header {
+    padding-bottom: 20px;
+  }
+  .blog-details-banner img {
+    height: 300px;
+  }
+  .blog-details-comment-counter .comment-date {
+    margin-right: 10px;
+  }
+  .blog-details-comment-counter {
+    padding: 15px;
+  }
+  .blog-details-comment-counter span{
+    font-size: 14px
+  }
+  .blog-tag-wrap {
+    margin-top: 20px;
+    align-items: flex-start;
+  }
+  .follow-us-wrap h4 {
+    font-size: 18px;
+  }
+  .comment-trigger .comment-header h2 {
+    font-size: 22px;
+    padding: 25px 0px 20px 0px;
+  }
+  .comment-trigger .commenter-info{
+    margin-top: 20px;
+  }
+  .comment-trigger .child-commenter {
+    margin-left: 50px;
+  }
+  .comment-trigger .post-comment-header h2 {
+    font-size: 22px;
+  }
+  .comment-trigger .commenter-name h4 {
+    font-size: 16px;
+  }
+  .search-blog-category h4{
+    font-size: 18px;
+  }
+  .comment-trigger .comment-parent {
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 20px;
+    align-items: self-start;
+  }
+  .search-blog-wrap, .documentation-search-wrap {
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .search-blog-category {
+    padding: 20px 0px 20px 20px;
+    margin-top: 20px;
+  }
+  .search-blog-wrap .btn-sarch, .documentation-search-wrap .btn-sarch {
+    width: 70px;
+  }
+  .follow-us-wrap {
+    padding: 25px;
+    margin-top: 20px;
+  }
+
+  /* Article Page */
+  .article-page-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .article-page-wrap .documentation-head h2 {
+    font-size: 25px;
+  }
+  .article-page-wrap .article-page-inner .documentation-search-wrap{
+    margin-top: 0px;
+  }
+  .article-page-wrap .documentation-head {
+    padding-bottom: 20px;
+  }
+  .article-page-wrap .article-sidebar-wrap {
+    padding: 25px;
+  }
+  .article-page-wrap .content-wrap .estimated-reading {
+    margin-bottom: 20px;
+  }
+  .article-page-wrap .content-wrap .elementor {
+    padding-bottom: 40px;
+  }
+  .article-page-wrap .contact-wrap{
+    margin-bottom: 60px;
+  }
+  .article-content{
+    margin-top: 40px;
+  }
+  .article-page-wrap .content-wrap .articles h4 {
+    font-size: 20px;
+  }
+
+  /* Article Page Details */
+  .article-details-wrap .normal-tab h2, .KbDOc-Version-wrap .KbDOc-header h2{
+    font-size: 25px;
+  }
+  .element-customer-report {
+    margin-top: 30px;
+  }
+  .KbDOc-Version-wrap {
+    padding-top: 30px;
+  }
+}
+  /*  Mobile Small Device: 300px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 300px) and (max-width: 449.98px) {
+  /* Mobile Site Common Css */
+  .common-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .common-section-pt{
+    padding-top: 30px;
+  }
+  .common-section-pb{
+    padding-bottom: 30px;
+  }
+  .section-title h1 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }
+  .mobile-mb-20{
+    margin-bottom: 20px;
+  }
+  .mobile_bottombar {
+    padding: 21px 0px;
+  }
+  /* Mobile Top Header */
+  .logo img {
+    width: 120px;
+  }
+  .top_heaeder {
+    height: 43px;
+  }
+  .tophead_contact{
+    display: none;
+  }
+  .top_heaeder .nice-select {
+    font-size: 14px;
+  }
+  .top_heaeder .login-register a {
+    font-size: 12px;
+  }
+  .tophead_contact .phone span{
+    font-size: 12px;
+  }
+  .tophead_contact a {
+    font-size: 12px;
+  }
+  .top_heaeder .login-register span {
+    font-size: 14px !important;
+  }
+  .phone::before {
+    top: 1px;
+  }
+  .tophead_contact .phone {
+    margin-right: 10px;
+  }
+  .phone::before {
+    top: 2px;
+    right: -5px;
+    height: 12px;
+  }
+  .tophead_items .nice-select {
+    padding-right: 25px;
+  }
+  .language-icon .ms-3{
+    margin-right: 3px !important;
+  }
+  .login-register .icon::before {
+    top: 8px;
+    left: -8px;
+    height: 13px;
+  }
+  .top_heaeder .nice-select .list {
+    left: -20px;
+    top: 100%;
+  }
+  .topheader-inner-wrap{
+    justify-content: end;
+  }
+  /* Mobile Navbar */
+  .main-header .nav_bar{
+    display: none;
+  }
+  .main-header nav {
+    height: 60px;
+  }
+  .open-ticket a {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  .sub_categories, .mobile_menu_2, .mobile_cart_wrap {
+    width: 270px;
+  }
+  .mobile_menu_2 a {
+    font-size: 14px;
+  }
+  .mobile_search_bar {
+    padding: 20px;
+  }
+  .search_result_ticket .sresult_content h4 {
+    font-size: 14px;
+  }
+  .mobile_menu_2 .mobile_title {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+  }
+  .mobile_menu_2 .mobile_title {
+    margin-bottom: 5px;
+  }
+  /* Mobile Banner */
+  #banner-wrap {
+    align-items: center;
+    height: 60vh;
+  }
+  .banner-content h1 {
+    font-size: 25px;
+  }
+  .banner-content {
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
+  .banner-content h4 {
+    font-size: 14px;
+    padding: 10px 0px;
+  }
+  .search {
+    width: 470px;
+  }
+  .search_category {
+    width: 150px;
+    padding-right: 15px;
+    height: 40px;
+  }
+  .search_category .nice-select {
+    height: 40px;
+  }
+  .search_subimt button {
+    height: 40px;
+  }
+  .search_suggest {
+    left: 5px;
+    width: 435px;
+    top: 42px;
+  }
+  .search_input input {
+    height: 40px;
+  }
+  .search_result ul {
+    padding: 5px 15px;
+  }
+  .search_result ul li small {
+    font-size: 13px;
+  }
+  /* Mobile Documentation & Article */
+  .documentation {
+    padding-bottom: 30px;
+  }
+  .article {
+    padding-top: 30px;
+  }
+  .fafc-card-wrap .content-fafc h4 {
+    font-size: 20px;
+  }
+  .fafc-card-wrap {
+    padding: 15px 15px;
+  }
+  .search_wrap{
+    display: none;
+  }
+  /* Mobile Frequently Ask & Question */
+  .frequently-ask {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  .frequently-ask .accordion-button {
+    font-size: 16px;
+  }
+  .mobile-searchbar{
+    display: block;
+  }
+
+  /* Mobile Support & Policy */
+  #support-policy {
+    margin-top: 0px;
+    background-position: inherit;
+  }
+  /* Mobile Blog & News */
+  .blog-title {
+    padding: 25px 0px;
+  }
+  .blog-title h1 {
+    font-size: 25px;
+  }
+  .blog-and-news {
+    padding-bottom: 35px;
+  }
+  .blog-title a {
+    padding: 5px 17px;
+  }
+
+  /* Mobile Coul Not Find Answer */
+  .find-answer {
+    height: auto;
+    padding: 30px 0px;
+  }
+  .find-answer h3{
+    font-size: 25px;
+  }
+  .find-answer a {
+    padding: 7px 15px;
+  }
+  .find-answer-image{
+    margin-bottom: 25px;
+  }
+  .find-answer-inner{
+    flex-direction: column;
+  }
+  /* Mobile Footer */
+  footer {
+    padding: 30px 0;
+  }
+
+
+  /* ******* Pages CSS Start *******/
+
+  /* Common Page CSS */
+  #common-page-banner {
+    height: 260px;
+    margin-top: -60px;
+  }
+  #common-page-banner h2 {
+    font-size: 30px;
+  }
+  #common-page-banner .breadcrumb-wrap {
+    padding-top: 55px;
+  }
+  /* Blog Page */
+  .blog-pagination{
+    padding-top: 30px;
+  }
+  /* Contact Page CSS */
+  .contact-wrap {
+    grid-template-columns: 100%;
+  }
+  .contact-wrap .send-message {
+    padding: 12px 0px;
+    margin-top: 20px;
+  }
+  .contact-wrap .contact-image{
+    display: none;
+  }
+  .contact-wrap .c-form-group{
+    flex-direction: column;
+  }
+
+  /* Blog Details Page */
+  .blog-details-header h1{
+    font-size: 22px;
+  } 
+  .blog-details-header {
+    padding-bottom: 20px;
+  }
+  .blog-details-banner img {
+    height: 175px;
+  }
+  .blog-details-comment-counter .comment-date {
+    margin-right: 10px;
+  }
+  .blog-details-comment-counter {
+    flex-direction: column;
+    padding: 15px;
+  }
+  .blog-details-comment-counter span{
+    font-size: 14px
+  }
+  .blog-tag-btn {
+    font-size: 12px;
+    padding: 3px 5px;
+  }
+  .blog-tag-wrap {
+    margin-top: 20px;
+    align-items: flex-start;
+  }
+  .follow-us-wrap h4 {
+    font-size: 18px;
+  }
+  .comment-trigger .comment-header h2 {
+    font-size: 20px;
+    padding: 25px 0px 15px 0px;
+  }
+  .comment-trigger .commenter-info{
+    margin-top: 20px;
+  }
+  .comment-trigger .child-commenter {
+    margin-left: 50px;
+  }
+  .comment-trigger .post-comment-header h2 {
+    font-size: 20px;
+  }
+  .comment-trigger .commenter-name h4 {
+    font-size: 16px;
+  }
+  .search-blog-category h4{
+    font-size: 18px;
+  }
+  .comment-trigger .comment-parent {
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 20px;
+    align-items: self-start;
+  }
+  .search-blog-wrap, .documentation-search-wrap {
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .search-blog-category {
+    padding: 20px 0px 20px 20px;
+    margin-top: 20px;
+  }
+  .search-blog-wrap .btn-sarch, .documentation-search-wrap .btn-sarch {
+    width: 50px;
+  }
+  .search-blog-wrap input, .documentation-search-wrap input {
+    height: 45px;
+  }
+  .follow-us-wrap {
+    padding: 25px;
+    margin-top: 20px;
+  }
+
+  /* Article Page */
+  .article-page-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .article-page-wrap .documentation-head h2 {
+    font-size: 25px;
+  }
+  .article-page-wrap .article-page-inner .documentation-search-wrap{
+    margin-top: 0px;
+  }
+  .article-page-wrap .documentation-head {
+    padding-bottom: 20px;
+  }
+  .article-page-wrap .article-sidebar-wrap {
+    padding: 15px;
+  }
+  .article-page-wrap .content-wrap .estimated-reading {
+    margin-bottom: 20px;
+  }
+  .article-page-wrap .content-wrap .elementor {
+    padding-bottom: 40px;
+  }
+  .article-page-wrap .contact-wrap{
+    margin-bottom: 60px;
+  }
+  .article-content{
+    margin-top: 40px;
+  }
+  .article-page-wrap .content-wrap .articles h4 {
+    font-size: 20px;
+  }
+  .article-page-wrap .estimated-reading{
+    flex-direction: column;
+  }
+  .article-page-wrap .article-page-inner .minute-count {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* Article Page Details */
+  .article-page-wrap .system-requirment {
+    display: flex;
+  }
+  .article-details-wrap .normal-tab h2, .KbDOc-Version-wrap .KbDOc-header h2{
+    font-size: 25px;
+  }
+  .element-customer-report {
+    margin-top: 30px;
+  }
+  .KbDOc-Version-wrap {
+    padding-top: 30px;
+  }
+
+}
+
+
+
+/* Global Mobile Menubar */
+@media (max-width: 992px) {
+  .mobile_menwrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    height: 100%;
+    overflow: hidden;
+    background: #00000070;
+    cursor: default;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+  }
+  .mobile_menwrap.active{
+    opacity: 1;
+    visibility: visible;
+  }
+  .mobile_menu_2 {
+    position: relative;
+    margin: 0;
+    margin-top: 0px !important;
+    height: 100%;
+    overflow-y: auto;
+    background: #FFF;
+    padding: 0;
+    opacity: 1;
+    visibility: visible;
+    left: -320px;
+    top: 0;
+    visibility: hidden !important;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+  }
+  .mobile_menwrap.active .mobile_menu_2{
+    left: 0;
+    visibility: visible !important;
+  }
+  .mobile_menu_2 a:hover {
+    background-color: #efefef;
+  }
+  .mobile_menu_2 a {
+    display: block;
+    padding: 10px 15px;
+    width: 100%;
+    text-decoration: none;
+    color: #2b2d42;
+    padding-left: 25px;
+    border-bottom: 1px dotted #C8C8CE;
+    text-transform: capitalize;
+  }
+  .mobile_menu_2 .submn a {
+    padding-left: 48px;
+  }
+  .mobile_menu_2 .submn {
+    display: none;
+  }
+  .mobile_menu_2 .withsub.active .submn {
+    display: block;
+  }
+  .mobile_menu_2 ul li {
+    display: block;
+    position: relative;
+  }
+  .mobile_menu_2 ul li.withsub:after {
+    content: '\f107';
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-weight: 900;
+    font-size: 15px;
+    font-family: 'Line Awesome Free';
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+  }
+  .mobile_menu_2 .withsub.active:after {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
